@@ -1,0 +1,26 @@
+﻿@page
+<div class="container">
+    <h3>SignalR Chart</h3>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <input placeholder="Your name" type="text" id="user" tabindex="1" required autofocus>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <input placeholder="Your message" type="text" id="message" tabindex="2" required>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <button name="submit" type="submit" id="sendButton">Send</button>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">&nbsp;</div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+</div>
